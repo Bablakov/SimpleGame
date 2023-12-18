@@ -59,10 +59,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\__Scripts\Inventory\Slot.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxLayer.cs" />
+    <Compile Include="Assets\__Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxBackgound.cs" />
     <Compile Include="Assets\__Scripts\PlayerController.cs" />
+    <Compile Include="Assets\__Scripts\Inventory\Pickup.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxCamera.cs" />
+    <Compile Include="Assets\__Scripts\Inventory\Spawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
