@@ -20,7 +20,7 @@ public class Slot : MonoBehaviour
         }
     }
 
-    private void DropItem()
+    public void DropItem()  // Сброс элемента
     {
         foreach(Transform child in transform)
         {

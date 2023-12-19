@@ -61,10 +61,14 @@
   <ItemGroup>
     <Compile Include="Assets\__Scripts\Inventory\Slot.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxLayer.cs" />
+    <Compile Include="Assets\__Scripts\Dialogues\DialogueTrigger.cs" />
     <Compile Include="Assets\__Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxBackgound.cs" />
+    <Compile Include="Assets\__Scripts\Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\__Scripts\PlayerController.cs" />
+    <Compile Include="Assets\__Scripts\Dialogues\DialogueAnimator.cs" />
     <Compile Include="Assets\__Scripts\Inventory\Pickup.cs" />
+    <Compile Include="Assets\__Scripts\Dialogues\Dialogue.cs" />
     <Compile Include="Assets\__Scripts\Paralax\ParallaxCamera.cs" />
     <Compile Include="Assets\__Scripts\Inventory\Spawn.cs" />
   </ItemGroup>

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    public GameObject item;
-    private Transform player;
+    public GameObject item;      // Объект для спавна
+    private Transform player;    // Позиция игрока
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    public void SpawnDroppedItem()
+    public void SpawnDroppedItem()  // Создние элемента
     {
-        Vector2 playerPos = new Vector2(player.position.x + 2, player.position.y - 1);
+        Vector2 playerPos = new Vector2(player.position.x + 1, player.position.y - 1);
         Instantiate(item, playerPos, Quaternion.identity);
     }
 }
