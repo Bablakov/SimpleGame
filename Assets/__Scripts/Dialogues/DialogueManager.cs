@@ -23,12 +23,12 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         boxAnim.SetBool("boxOpen", true);
-        startAnim.SetBool("StartOpen", false);
+        startAnim.SetBool("startOpen", false);
         
         nameText.text = dialogue.name;
         sentences.Clear();
 
-        foreach (string sentence in sentences) 
+        foreach (string sentence in dialogue.sentences) 
         { 
             sentences.Enqueue(sentence);
         }
@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
-    private void DisplayNextSentence()
+    public void DisplayNextSentence()
     {
         if(sentences.Count == 0) 
         {
